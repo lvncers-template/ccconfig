@@ -1,5 +1,8 @@
 {
+  "advisorModel": "fable",
+  "viewMode": "focus",
   "permissions": {
+    "defaultMode": "auto",
     "allow": [
       "*",
       "Bash(git status)",
