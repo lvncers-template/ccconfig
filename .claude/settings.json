@@ -1,10 +1,6 @@
 {
-  "advisorModel": "fable",
-  "viewMode": "focus",
   "permissions": {
-    "defaultMode": "auto",
     "allow": [
-      "*",
       "Bash(git status)",
       "Bash(git status *)",
       "Bash(git diff)",
@@ -37,7 +33,8 @@
       "Bash(gh repo sync)",
       "Bash(gh repo sync *)",
       "Bash(rm -rf /)"
-    ]
+    ],
+    "defaultMode": "auto"
   },
   "hooks": {
     "PreToolUse": [
@@ -82,5 +79,25 @@
         ]
       }
     ]
-  }
+  },
+  "enabledPlugins": {
+    "figma@claude-plugins-official": true,
+    "notion@claude-plugins-official": true,
+    "slack@claude-plugins-official": true,
+    "stripe@claude-plugins-official": true,
+    "supabase@claude-plugins-official": true,
+    "chrome-devtools-mcp@claude-plugins-official": true,
+    "aws-core@claude-plugins-official": true,
+    "gitkraken@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
+    }
+  },
+  "viewMode": "focus",
+  "advisorModel": "fable"
 }
