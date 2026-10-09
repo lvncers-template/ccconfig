@@ -81,14 +81,14 @@
     ]
   },
   "enabledPlugins": {
-    "figma@claude-plugins-official": true,
-    "notion@claude-plugins-official": true,
-    "slack@claude-plugins-official": true,
-    "stripe@claude-plugins-official": true,
-    "supabase@claude-plugins-official": true,
-    "chrome-devtools-mcp@claude-plugins-official": true,
-    "aws-core@claude-plugins-official": true,
-    "gitkraken@claude-plugins-official": true
+    "figma@claude-plugins-official": false,
+    "notion@claude-plugins-official": false,
+    "slack@claude-plugins-official": false,
+    "stripe@claude-plugins-official": false,
+    "supabase@claude-plugins-official": false,
+    "chrome-devtools-mcp@claude-plugins-official": false,
+    "aws-core@claude-plugins-official": false,
+    "gitkraken@claude-plugins-official": false
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
