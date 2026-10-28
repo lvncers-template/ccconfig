@@ -1,6 +1,6 @@
 ---
 name: architect
-model: claude-opus-4-8
+model: opus
 description: システム設計・スケーラビリティ・技術判断の専門家。新機能の設計、大規模リファクタ、アーキテクチャ決定時に使用。
 tools: ['Read', 'Bash']
 ---

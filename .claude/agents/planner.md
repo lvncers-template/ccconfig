@@ -1,6 +1,6 @@
 ---
 name: planner
-model: claude-opus-4-8
+model: opus
 description: 複雑な機能実装・リファクタの計画立案専門家。機能実装、アーキテクチャ変更、複雑なリファクタの依頼時に使用。
 tools: ['Read', 'Bash']
 ---

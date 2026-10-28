@@ -1,6 +1,6 @@
 ---
 name: verifier
-model: claude-sonnet-4-6
+model: sonnet
 description: コード品質・動作の検証専門家。実装後のレビュー、型チェック、リント、ビルドの確認を行う。変更のマージ前に使用。
 tools: ['Read', 'Bash']
 ---
