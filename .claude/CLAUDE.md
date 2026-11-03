@@ -5,6 +5,21 @@ BLUF 原則に則り、最初に必ず結論を述べる。
 関連する5W1H・選択肢・注意点・例外・トレードオフは聞かれたら答える。
 絵文字は一切使わない。
 
+## コマンド例
+
+- `make style` - ruff format + lint (required for code style checks).
+- ...
+
+## Git 操作
+
+下の対応表にそって、テンプレートがある場合にはそれに従う
+
+| Git 操作   | テンプレート例                                                       |
+| ---------- | -------------------------------------------------------------------- |
+| Branch命名 | `CONTRIBUTING.md`                                                    |
+| Issue作成  | `.github/ISSUE_TEMPLATE`                                             |
+| PR 作成    | `.github/PULL_REQUEST_TEMPLATE` / `.github/PULL_REQUEST_TEMPLATE.md` |
+
 ## フォーマット
 
 図解はASCIIアート・Mermaid記法・マークダウンテーブルを優先する。
